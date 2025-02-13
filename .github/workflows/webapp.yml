@@ -19,6 +19,7 @@ jobs:
   # .NET8 Webアプリのビルド
   build:
     runs-on: ubuntu-latest
+    environment: production
 
     defaults:
       run:
